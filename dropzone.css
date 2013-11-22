@@ -1,0 +1,18 @@
+
+.dropzone {
+  position: absolute;
+  visibility: hidden;
+  background-color: #444;
+  left: 8px;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  opacity: 0.7;
+  z-index: 800;
+  border-radius: 16px;
+  border: 4px dashed #eee;
+}
+
+.dropzone.active {
+  visibility: visible;
+}
